@@ -1,5 +1,4 @@
-#project euler problems
-#problem2
+
 
 a = 1
 b = 2
@@ -11,6 +10,3 @@ while a <= 4000000:
     a, b = b, a + b
 
 print(sum)
-
-
-
