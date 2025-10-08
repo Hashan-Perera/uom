@@ -1,3 +1,4 @@
+#problem6
 n=100
 sum1=0
 sum2=0

@@ -1,4 +1,28 @@
 #project euler
+
+#problem3
+def largest_prime_factor(n):
+    i=2
+    
+       
+    while i*i<=n:
+        if n%i!=0:
+            i+=1
+        else:
+            value=2
+            while value * value <= i:
+                  if i % value != 0:
+                         value += 1
+                  else:
+                     break
+            else:
+              final_val = i
+
+            i=i+1      
+    print(final_val)  
+
+largest_prime_factor(600851475143) 
+
 #problem 7
 def is_prime(n):
     
